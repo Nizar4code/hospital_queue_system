@@ -1,8 +1,8 @@
 export default function AdminPage() {
     return (
-        <div className="min-h-screen bg-slate-50 p-8">
+        <div className="min-h-screen bg-emerald-900 p-8">
             <div className="max-w-4xl mx-auto">
-                <h1 className="text-2xl font-bold text-slate-800 mb-6">Dashboard Admin Loket</h1>
+                <h1 className="text-2xl font-bold text-white mb-6">Dashboard Admin Loket</h1>
                 
                 <div className="bg-white rounded-lg shadow overflow-hidden">
                     <table className="w-full text-left border-collapse">
@@ -17,7 +17,7 @@ export default function AdminPage() {
                         <tbody>
                             {/* Dummy Data Row */}
                             <tr className="border-b hover:bg-slate-50">
-                                <td className="p-4 font-bold text-lg">JKN-001</td>
+                                <td className="p-4 font-bold text-lg text-gray-500">JKN-001</td>
                                 <td className="p-4 text-gray-500">10:30 WIB</td>
                                 <td className="p-4">
                                     <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Menunggu</span>
